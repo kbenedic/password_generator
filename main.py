@@ -1,6 +1,7 @@
 import random
 import string
 
+
 #fonction pour générer un mot de passe sécurisé
 def generate_password(length=12):
     # Définir les caractères possible
@@ -13,3 +14,4 @@ def generate_password(length=12):
 if __name__== "__main__":
     password = generate_password(16) # Générer un mdp en 16 carac.
     print(f"mot de passe généré : {password}")
+
